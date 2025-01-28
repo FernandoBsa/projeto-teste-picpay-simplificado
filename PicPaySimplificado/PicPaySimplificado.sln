@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicPaySimplificado.WebAPI", "PicPaySimplificado.WebAPI\PicPaySimplificado.WebAPI.csproj", "{9B149A73-BC3C-453C-8F79-558F177FC8F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicPaySimplificado.Data", "PicPaySimplificado.Data\PicPaySimplificado.Data.csproj", "{E4CC9984-3990-4612-B4E1-88CB4F9A1EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicPaySimplificado.Domain", "PicPaySimplificado.Domain\PicPaySimplificado.Domain.csproj", "{D9678229-85DB-4948-B8E7-7E0BD80F08B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicPaySimplificado.Service", "PicPaySimplificado.Service\PicPaySimplificado.Service.csproj", "{9DFBBC11-6592-478F-B3A4-E48D42419910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B149A73-BC3C-453C-8F79-558F177FC8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B149A73-BC3C-453C-8F79-558F177FC8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B149A73-BC3C-453C-8F79-558F177FC8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B149A73-BC3C-453C-8F79-558F177FC8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CC9984-3990-4612-B4E1-88CB4F9A1EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CC9984-3990-4612-B4E1-88CB4F9A1EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CC9984-3990-4612-B4E1-88CB4F9A1EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CC9984-3990-4612-B4E1-88CB4F9A1EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9678229-85DB-4948-B8E7-7E0BD80F08B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9678229-85DB-4948-B8E7-7E0BD80F08B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9678229-85DB-4948-B8E7-7E0BD80F08B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9678229-85DB-4948-B8E7-7E0BD80F08B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFBBC11-6592-478F-B3A4-E48D42419910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFBBC11-6592-478F-B3A4-E48D42419910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFBBC11-6592-478F-B3A4-E48D42419910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFBBC11-6592-478F-B3A4-E48D42419910}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
