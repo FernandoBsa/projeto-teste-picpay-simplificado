@@ -11,11 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\PicPaySimplificado.Data\PicPaySimplificado.Data.csproj" />
     <ProjectReference Include="..\PicPaySimplificado.Domain\PicPaySimplificado.Domain.csproj" />
     <ProjectReference Include="..\PicPaySimplificado.Service\PicPaySimplificado.Service.csproj" />
   </ItemGroup>

@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using PicPaySimplificado.Data.Context;
 using PicPaySimplificado.Data.Repository;
 using PicPaySimplificado.Domain;
+using PicPaySimplificado.Service.Interfaces;
+using PicPaySimplificado.Service.Services;
 
 namespace PicPaySimplificado.WebAPI
 {
@@ -24,6 +26,11 @@ namespace PicPaySimplificado.WebAPI
 
             builder.Services.AddScoped<ICarteiraRepository, CarteiraRepository>();
             builder.Services.AddScoped<ITransferenciaRepository, TransferenciaRepository>();
+            builder.Services.AddScoped<ICarteiraServices, CarteiraServices>();
+            builder.Services.AddScoped<INotificacaoService, NotificacaoService>();
+            builder.Services.AddScoped<ITransferenciaService, TransferenciaService>();
+            builder.Services.AddHttpClient<IAutorizadorService, AutorizadorService>();
+            
 
             var app = builder.Build();
 
