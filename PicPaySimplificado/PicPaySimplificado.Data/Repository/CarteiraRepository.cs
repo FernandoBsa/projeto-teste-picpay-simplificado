@@ -16,12 +16,12 @@ public class CarteiraRepository : ICarteiraRepository
 
     public async Task AddAsync(CarteiraEntity carteira)
     {
-        await _context.Carteiras.AddAsync(carteira);
+        await _context.AddAsync(carteira);
     }
 
     public async Task UpdateAsync(CarteiraEntity carteira)
     {
-        _context.Carteiras.Update(carteira);
+        _context.Update(carteira);
     }
 
     public async Task<CarteiraEntity?> GetByCpfCnpj(string cpfCnpj, string email)

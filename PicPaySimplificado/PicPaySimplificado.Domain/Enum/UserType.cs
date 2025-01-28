@@ -1,6 +1,6 @@
 ﻿namespace PicPaySimplificado.Domain.Enum;
 
-public enum Usertype
+public enum UserType
 {
     Lojista,
     Usuario

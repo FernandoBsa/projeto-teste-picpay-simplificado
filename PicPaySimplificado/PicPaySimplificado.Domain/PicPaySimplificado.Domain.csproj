@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PicPaySimplificado.Utils\PicPaySimplificado.Utils.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,14 +10,14 @@ public class CarteiraEntity
     public string Email { get; set; }
     public string Senha { get; set; }
     public decimal SaldoConta { get; set; }
-    public Usertype UserType { get; set; }
+    public UserType UserType { get; set; }
 
     private CarteiraEntity()
     {
 
     }
 
-    public CarteiraEntity(string nomeCompleto, string cpfcnpj, string email, string senha, Usertype userType,
+    public CarteiraEntity(string nomeCompleto, string cpfcnpj, string email, string senha, UserType userType,
         decimal saldoConta = 0)
     {
         NomeCompleto = nomeCompleto;
